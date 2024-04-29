@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+
+header{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title{
+    text-align:center; 
+    background-color: blueviolet;
+    color: aliceblue;
+}
