@@ -4,96 +4,21 @@
 // let itemsDiv =document.getElementById("items"); 
 //Визначення масиву товарів
 let itemsArray = [
+ {       
+    email: "23a_bam@liceum.ztu.edu.ua",
+    class: "10-А 1",
+    name: "Боровий Артур",
+    projectTitle: "Дід проти москалів",
+    projectGithub: "https://github.com/23a-bam/Phaser2ndGame",
+    projectLiveDemo: "https://23a-bam.github.io/Phaser2ndGame/",
+    projectDrive: "https://drive.google.com/drive/folders/1A12wx0lfNj7Aef9KAw2CFMaDwhWM8V4Q?usp=sharing",
+    projectForm: "https://forms.gle/sS7tuJWJuGDjmHB98",
+    gameMarketGithub: "https://github.com/23a-bam/GameMarket_Borovyi",
+    gameMarketLiveDemo: "https://23a-bam.github.io/GameMarket_Borovyi/",
+    gameMarketMarketPage: "https://23a-bam.github.io/GameMarket_Borovyi/market.html"
 
-
-    // {
-//     firstName: "Лариса",
-//     lastName: "Забелло",
-//     age: "65",
-//     subject: "Англійська мова",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/zabello-l-o/"
-// },
-
-// {
-//     firstName: "Василь",
-//     lastName: "Бабій",
-//     age: "95",
-//     subject: "Фізична культура",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/"
-// },
-
-// {
-//     firstName: "Іван",
-//     lastName: "Севрук",
-//     age: "16",
-//     subject: "Пенсія",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/sevruk-i-h/"
-// },
-
-// {
-//     firstName: "Олена",
-//     lastName: "Геча",
-//     age: "32",
-//     subject: "Історія",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/"
-// },
-
-// {
-//     firstName: "Вікторія",
-//     lastName: "Нелипович",
-//     age: "35",
-//     subject: "Математика",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/"
-// },
-
-    {
-        name: "Електрична Мотокоса 12 MS",
-        price: "5499",
-        discountPrice: "4497",
-        couponPrice: "4395",
-        photo: "https://hotline.ua/img/tx/319/3193450945.jpg"
-    },
-    {
-        name: "Електричний тример 4 Limit",
-        price: "4497",
-        discountPrice: "3498",
-        couponPrice: "3396",
-        photo: "https://vitals.ua/image/cache/catalog/demo/sad-park/ezt-033s/ezt-033s-4-1000x1000.jpg"
-    },
-    {
-        name: "Електрична газонокосарка топ",
-        price: "4497",
-        discountPrice: "3297",
-        couponPrice: "3195",
-        photo: "https://storgom.ua/cache/i/products/36/56763/112998-classic-4.2-e-plus_1.1900x1200.jpg.webp"
-    },
-    {
-        name: "Ручний Оприскувач Limit 81",
-        price: "2190",
-        discountPrice: "1698",
-        couponPrice: "1596",
-        photo: "https://alko-guru.com.ua/wa-data/public/shop/products/86/44/4486/images/8625/8625.970.jpg"
-    }  ,
-       
-
-
-//     'Газоноосарка 43',
-//     'Електричний тример 110',
-//     'Електрична газонокосарка 32',
-//     'Акумуляторний оприскувач 12 N',
-//     'Газоноосарка 43',
-//     'Електричний тример 110',
-//     'Електрична газонокосарка 32',
-//     'Акумуляторний оприскувач 12 N',
-//     'Газоноосарка 43',
-//     'Електричний тример 110',
-//     'Електрична газонокосарка 32',
-//     'Акумуляторний оприскувач 12 N',
+ }
+    
     
 ]
 // Отримання елементу з індифікатором items
