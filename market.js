@@ -6,51 +6,7 @@
 let itemsArray = [
 
 
-    // {
-//     firstName: "Лариса",
-//     lastName: "Забелло",
-//     age: "65",
-//     subject: "Англійська мова",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/zabello-l-o/"
-// },
-
-// {
-//     firstName: "Василь",
-//     lastName: "Бабій",
-//     age: "95",
-//     subject: "Фізична культура",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/"
-// },
-
-// {
-//     firstName: "Іван",
-//     lastName: "Севрук",
-//     age: "16",
-//     subject: "Пенсія",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/sevruk-i-h/"
-// },
-
-// {
-//     firstName: "Олена",
-//     lastName: "Геча",
-//     age: "32",
-//     subject: "Історія",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/"
-// },
-
-// {
-//     firstName: "Вікторія",
-//     lastName: "Нелипович",
-//     age: "35",
-//     subject: "Математика",
-//     photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna.jpg",
-//     url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/"
-// },
-
+    
     {
         name: "Електрична Мотокоса 12 MS",
         price: "5499",
@@ -66,18 +22,18 @@ let itemsArray = [
         photo: "https://vitals.ua/image/cache/catalog/demo/sad-park/ezt-033s/ezt-033s-4-1000x1000.jpg"
     },
     {
-        name: "Електрична газонокосарка топ",
+        name: "Електрична газонокосарка 9",
         price: "4497",
         discountPrice: "3297",
         couponPrice: "3195",
-        photo: "https://storgom.ua/cache/i/products/36/56763/112998-classic-4.2-e-plus_1.1900x1200.jpg.webp"
+        photo: "https://machtz.com.ua/files/resized/products/000024307_5be968a4-80ad-4b5b-b7ca-f04e9b0d4452-800x800.1800x1800w.jpg"
     },
     {
         name: "Ручний Оприскувач Limit 81",
         price: "2190",
         discountPrice: "1698",
         couponPrice: "1596",
-        photo: "https://alko-guru.com.ua/wa-data/public/shop/products/86/44/4486/images/8625/8625.970.jpg"
+        photo: "https://hecht.ua/content/images/18/478x480l50nn0/95145173888325.jpg"
     }  ,
        
 
