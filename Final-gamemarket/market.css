@@ -1,73 +1,82 @@
+/* Імпорт шрифта Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto;
-    background: rgb(235, 216, 216);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
+    background-color: #f1f1f1;
 }
-
-content {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    margin-top: 5px; 
-}
-
-
-.header {
-    background: rgb(173, 4, 4);
-    width: auto;
-    color: white;
+/* Заголовок */
+h1 {
+    background: rgb(253, 48, 48);
+    width: 620px;
+    margin: 20px auto;
     padding: 10px;
+
+    color: white;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-bottom: 10px;
-    margin-top: 10px ;
 }
 
-.items {
+content {
+    width: 655px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; /* відцентрування по ширині */
+    gap: 10px;
+}
+/* Блок товарів */
+#items {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Блок окремого товару */
+.item {
+    width: 630px;
+    min-height: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    background-color: white;
+
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0,0,0,0,3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Блок назви товару */
+.item h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* Блок зображення товару */
+.item > div > img, .photo {
+    height: 300px;
+}
+
+.photos {
     display: flex;
     justify-content: space-between;
 }
 
-.item {
-    min-width: 180px;
-    min-height: 320px;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid rgb(194, 194, 194);
-    border-radius: 5px;
-    box-shadow: 0 0 7px black;
-    
-}
-.bober{
-    font-weight: bold;
-}
-.item-tittle {
-    font-weight: bold;
-}
-
-.item-image {
-    height: 200px;
-    background-image: url(img-market/1.png);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .parts-pay {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -76,45 +85,39 @@ content {
 
 .parts-pay img {
     height: 24px;
+    margin-right: 5px;
 }
 
-.prise {
+/* Блок ціни */
+.price {
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
     padding: 5px 10px;
     display: flex;
-    
 }
 
-.prise div:first-child {
+.price div.old:first-child {
     width: 100px;
-    font-size: 20px;
-}
-
-.prise div:first-child span {
+    font-size: 18px;
     text-decoration-line: line-through;
 }
 
-.prise div:first-child sup {
-    font-size: 12px;
+.price div:last-child {
+    font-size: 22px;
 }
 
-.prise div:last-child {
-    font-size: 24px;
-}
-
-.prise div:last-child sup {
-    font-size: 18px;
+.price div.uah::after {
+    content: " грн";
+    font-size: 14px;
+    vertical-align: top;
 }
 
 .bonus {
-    background: rgb(173, 4, 4);
+    background: rgb(253, 48, 48);
     color: white;
     border-radius: 5px;
     display: flex;
     align-items: center;
-    margin-top: 5px;
-    
 }
 
 .bonus div:first-child {
@@ -122,37 +125,37 @@ content {
     font-size: 14px;
 }
 
-.bonus div:last-child {
-    font-size: 24px;
+.contacts {
+    order: 9999998;
 }
-
-.bonus div:last-child sup {
-    font-size: 14px;
-}
-
-.info {
-    font-size: 9px;
-    text-align: justify;
-    color: grey;
-}
-
-
 
 .contacts p {
     margin: 3px;
 }
-
 .contacts p:first-child {
     font-weight: bold;
+    letter-spacing: 1px;
 }
-
 .contacts p:last-child {
-    border-left: 3px solid rgb(173, 4, 4);
-    padding-left: 5px;
+    border-left: 3px solid rgb(253, 48, 48);
 }
-
-.license {
-    font-size: 9px;
+.info {
+    font-size: 0.7em;
     text-align: justify;
     color: rgb(120, 120, 120);
+    order: 9999999;
+    margin: 5px auto;
+}
+
+a {
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+.link {
+    width: 100px;
+    height: 20px;
+    background: gray;
+    display: flex;
+    justify-content: center;
 }
